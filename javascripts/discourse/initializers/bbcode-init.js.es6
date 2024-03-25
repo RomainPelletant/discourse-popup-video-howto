@@ -17,8 +17,8 @@ export default {
           id: "color_ui_button",
           group: "extras",
           icon: "palette",
-          title: themePrefix('composer.color_ui_button_title'),
-          perform: e => e.applySurround('[wrap=color color=# bgcolor=#]', '[/wrap]', 'color_ui_default_text')
+          title: themePrefix('composer.color_ui_button_title'),color-picker
+          perform: this.appEvents.trigger("color-picker:open");
         });
       });
 
