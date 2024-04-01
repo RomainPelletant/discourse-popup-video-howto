@@ -1,9 +1,9 @@
 {
-  "name": "Coloured Text",
-  "about_url": "https://github.com/merefield/discourse-tc-coloured-text",
-  "authors": ["merefield", "johani"],
+  "name": "KM Video Howto button",
+  "about_url": "https://github.com/RomainPelletant/discourse-popup-video-howto",
+  "authors": ["romain", "pelletant"],
   "component": true,
   "license": "MIT",
-  "about": "adds coloured text to Discourse posts",
+  "about": "adds howto add video button",
   "version": 0.1
 }
