@@ -11,7 +11,7 @@ export default {
         toolbar.addButton({
           id: "video_how_button",
           group: "extras",
-          icon: "video",
+          icon: "palette",
           title: themePrefix('composer.video_howto_button_title'),
           perform: window.open("google.com", "_blank", strWindowFeatures);
         });
